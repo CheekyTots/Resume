@@ -11,7 +11,7 @@
 
 Welcome, fellow lab members, to the digital manifestation of **FUTURE_GADGET_LAB**! This repository hosts the source code for my interactive portfolio, designed to showcase my journey as a **mad scientist** in the realms of Computer Science and Biological Science. Inspired by the captivating world of *Steins;Gate*, this portfolio is more than just a resume; it's a dynamic interface mirroring a research lab, complete with a divergence meter, real-time data feeds, and a personal log.
 
-**Explore the live experiment here:** [Link to your deployed portfolio (e.g., Vercel, Netlify)]
+**Explore the live experiment here:** [https://resume-mg4itih31-ballerforever173888-1860s-projects.vercel.app/]
 
 ### Features:
 
