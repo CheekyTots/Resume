@@ -17,7 +17,6 @@ Welcome, fellow lab members, to the digital manifestation of **FUTURE_GADGET_LAB
 
 * **Divergence Meter:** Observe the shifting worldlines with a unique, interactive divergence meter.
 * **Dynamic Theme:** Toggle between light and dark modes to suit your experimental environment.
-* **Terminal-like Interface:** Engage with a simulated terminal for personal insights and system statuses.
 * **Real-time API Data:** Fetch and display live weather conditions, philosophical quotes, and even anime recommendations (for those crucial research breaks).
 * **Comprehensive Profile:** Dive into my academic background, professional experience, research endeavors, and creative projects, presented with a futuristic, sci-fi aesthetic.
 * **Interactive Galleries:** Browse through creative project visuals with intuitive navigation controls.
@@ -59,7 +58,3 @@ Ensure your system is equipped with the following:
     ```
 
     Open [http://localhost:3000](http://localhost:3000) in your browser to observe the live experiment. The page will auto-update as you modify the source code.
-
-## 📂 Project Structure
-
-The project is structured to simulate a well-organized laboratory. Key directories include:
