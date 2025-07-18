@@ -37,8 +37,8 @@ Ensure your system is equipped with the following:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/CheekyTots/Future-Gadget-Lab.git](https://github.com/CheekyTots/Future-Gadget-Lab.git)
-    cd Future-Gadget-Lab
+    git clone [https://github.com/CheekyTots/Resume.git]
+    cd Resume
     ```
 
 2.  **Install Dependencies:**
@@ -57,4 +57,4 @@ Ensure your system is equipped with the following:
     yarn dev
     ```
 
-    Open [http://localhost:3000](http://localhost:3000) in your browser to observe the live experiment. The page will auto-update as you modify the source code.
+
