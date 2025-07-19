@@ -922,38 +922,102 @@ export default function Portfolio() {
         <div className="section-separator"></div>
 
         {/* Future Projects Section */}
-        <section className="content-section">
-          <h2 className="section-title">FUTURE_GADGETS. INVENTORY.exe</h2>
-          <div className="future-projects">
-            <div className="future-card hoverable">
-              <div className="future-header">
-                <Brain className="section-icon" size={24} />
-                <h3 className="future-title">Future Gadget #XX: Template Project</h3>
-              </div>
-              <p className="future-description">A placeholder for your next world-changing invention.</p>
-              <div className="api-content">
-                <div className="card-bullet-item">Ready for your next groundbreaking project</div>
-                <div className="card-bullet-item">Describe your innovative work here</div>
-                <div className="card-bullet-item">List the technologies and frameworks used</div>
-                <div className="card-bullet-item">Link to your code repository or live demo</div>
-              </div>
-              <div className="future-tags">
-                <span className="future-tag placeholder">Placeholder</span>
-                <span className="future-tag coming-soon">Coming Soon</span>
-              </div>
-              <div className="future-buttons">
-                <button className="future-btn code-btn">
-                  <Code size={16} />
-                  Code
-                </button>
-                <button className="future-btn demo-btn">
-                  <Play size={16} />
-                  Live Demo
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+{/* Future Projects Section */}
+{/* Future Projects Section */}
+<section className="content-section">
+  <h2 className="section-title">FUTURE_GADGETS. INVENTORY.exe</h2>
+
+  {/* WRAPPER that enables row-based layout */}
+  <div className="future-projects-grid">
+    {/* CARD 1 */}
+    <div className="future-card hoverable">
+      <div className="future-header">
+        <Brain className="section-icon" size={24} />
+        <h3 className="future-title">Future Gadget #01: VenYou</h3>
+      </div>
+      <p className="future-description">The goal of this creating this website is to allow users to discover upcoming local events such as music, comedy, theater, sports, etc</p>
+      <div className="api-content">
+        <div className="card-bullet-item">Users can view nearby venues and get directions</div>
+        <div className="card-bullet-item">Users can see event details like, date, location, and ticket info</div>
+        <div className="card-bullet-item">Users can filter by category, date, or location</div>
+      </div>
+      <div className="future-tags">
+
+        <span className="future-tag coming-soon">Coming Soon</span>
+      </div>
+      <div className="future-buttons">
+        <button className="future-btn code-btn">
+          <Code size={16} />
+          Code
+        </button>
+        <button className="future-btn demo-btn">
+          <Play size={16} />
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+    {/* CARD 2 */}
+    <div className="future-card hoverable">
+      <div className="future-header">
+        <Brain className="section-icon" size={24} />
+        <h3 className="future-title">Future Gadget #02: Event Horizon Finder</h3>
+      </div>
+      <p className="future-description">Discover and filter hyperlocal events and underground meetups.</p>
+      <div className="api-content">
+        <div className="card-bullet-item">Live event and venue data</div>
+        <div className="card-bullet-item">Uses Ticketmaster + Map APIs</div>
+        <div className="card-bullet-item">Filter by interest, time, and distance</div>
+        <div className="card-bullet-item">Dark, cyberpunk UI with real-time updates</div>
+      </div>
+      <div className="future-tags">
+        <span className="future-tag map">Maps</span>
+        <span className="future-tag coming-soon">Coming Soon</span>
+      </div>
+      <div className="future-buttons">
+        <button className="future-btn code-btn">
+          <Code size={16} />
+          Code
+        </button>
+        <button className="future-btn demo-btn">
+          <Play size={16} />
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+    {/* CARD 3 */}
+    <div className="future-card hoverable">
+      <div className="future-header">
+        <Brain className="section-icon" size={24} />
+        <h3 className="future-title">Future Gadget #03: Placeholder Engine</h3>
+      </div>
+      <p className="future-description">A placeholder for your next world-changing invention.</p>
+      <div className="api-content">
+        <div className="card-bullet-item">Describe your innovative work here</div>
+        <div className="card-bullet-item">List the technologies and frameworks used</div>
+        <div className="card-bullet-item">Link to your code repository or live demo</div>
+      </div>
+      <div className="future-tags">
+        <span className="future-tag placeholder">Placeholder</span>
+        <span className="future-tag coming-soon">Coming Soon</span>
+      </div>
+      <div className="future-buttons">
+        <button className="future-btn code-btn">
+          <Code size={16} />
+          Code
+        </button>
+        <button className="future-btn demo-btn">
+          <Play size={16} />
+          Live Demo
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
         {/* Section Separator */}
         <div className="section-separator"></div>
@@ -999,19 +1063,19 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="contact-actions">
-              <a href="mailto:eliantelope03@gmail.com">
+              <a href="mailto:eliantelope03@gmail.com" className="no-underline-button">
                 <button className="contact-btn email-btn">
                 <Mail size={16} />
                 <span>SEND D-MAIL</span>
               </button>
               </a>
-              <a href="www.linkedin.com/in/eli-antoine-753486226">
+              <a href="https://www.linkedin.com/in/eli-antoine-753486226/" className="no-underline-button">
                 <button className="contact-btn linkedin-btn">
                 <Linkedin size={16} />
                 <span>CONNECT</span>
               </button>
               </a>
-              <a href="https://github.com/CheekyTots">
+              <a href="https://github.com/CheekyTots" className="no-underline-button">
                 <button className="contact-btn github-btn">
                 <Github size={16} />
                 <span>VIEW CODE</span>
@@ -1020,14 +1084,15 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
+        
         {/* Footer */}
+        <br></br>
         <footer className="footer">
           <div className="footer-content">
             <p className="footer-text">
-              © 2024 FUTURE GADGET LABORATORY • Built with React & TypeScript • Powered by mad science
+              © 2025 FUTURE GADGET LABORATORY • Built with React & TypeScript • Powered by mad science
             </p>
-            <p className="footer-subtext">Lab uptime: ∞ • Last worldline shift: 7/17/2025 • El Psy Kongroo</p>
+            <p className="footer-subtext">Lab uptime: ∞ • Last worldline shift: 7/18/2025 • El Psy Kongroo</p>
             <p className="footer-quote">
               "The universe has a beginning, but no end. Stars, too, have their own beginnings, but their own power
               results in their destruction. — Finite."

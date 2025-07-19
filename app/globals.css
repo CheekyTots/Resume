@@ -28,6 +28,12 @@ body {
     background-image: linear-gradient(rgba(30, 41, 59, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(30, 41, 59, 0.1) 1px, transparent 1px);
 }
 
+.future-projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.0rem;
+}
+
 
 /* Background grid effect */
 
@@ -2539,4 +2545,8 @@ body {
 .small-btn {
     width: 80px;
     /* Or any smaller value you prefer */
+}
+
+.no-underline-button {
+    text-decoration: none;
 }
